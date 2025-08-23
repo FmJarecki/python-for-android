@@ -141,7 +141,7 @@
     {% endfor %}
     <provider
         android:name="androidx.core.content.FileProvider"
-        android:authorities="org.example.bridge_ai_inspector.fileprovider"
+        android:authorities="pl.aspekt.bridge_ai_inspector.fileprovider"
         android:exported="false"
         android:grantUriPermissions="true"
     >
